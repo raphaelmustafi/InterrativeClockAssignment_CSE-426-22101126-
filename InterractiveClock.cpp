@@ -412,7 +412,7 @@ void keyboard(unsigned char key, int, int) {
         break;
     case 't':
     case 'T':
-        themeIndex = (themeIndex + 1) % 3; // Case "T or t " to change theme.
+        themeIndex = (themeIndex + 1) % 3; // Case "T or t" to change theme.
         break;
     case 'c':
     case 'C':
