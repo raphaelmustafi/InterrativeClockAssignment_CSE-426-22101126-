@@ -1,11 +1,4 @@
-# CSE 426 Lab Assignment Solution
-
-## Deliverable
-
-Use `interactive_graphics_clock_glut.cpp` as the GLUT/OpenGL assignment solution. It is a complete 2D interactive clock system implemented with low-level raster algorithms and plotted through `GL_POINTS`.
-
-`interactive_graphics_clock.html` was an earlier browser demo version. For a GLUT-required submission, submit the C++ file.
-
+# CSE 426 Lab Assignment Solution(22101126, SEC: C-2, 4-2)
 ## Covered Requirements
 
 - Clock face: drawn with the midpoint circle algorithm using multiple concentric circles.
@@ -37,7 +30,7 @@ The rectangular clipping mode assigns each endpoint a region code and repeatedly
 
 ## File
 
-- `interactive_graphics_clock_glut.cpp`
+- `InteractiveClock.cpp`
 
 ## Controls
 
@@ -57,11 +50,11 @@ The rectangular clipping mode assigns each endpoint a region code and repeatedly
 Windows with MinGW/freeglut:
 
 ```bash
-g++ interactive_graphics_clock_glut.cpp -o clock.exe -lfreeglut -lopengl32 -lglu32
+g++ InteractiveClock.cpp -o clock.exe -lfreeglut -lopengl32 -lglu32
 ```
 
 Linux:
 
 ```bash
-g++ interactive_graphics_clock_glut.cpp -o clock -lglut -lGL -lGLU
+g++ InteractiveClock.cpp -o clock -lglut -lGL -lGLU
 ```
